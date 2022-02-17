@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap");
+
+main {
+  font-family: "Montserrat", sans-serif;
+}
+
 nav {
   background-color: rgb(22, 22, 133);
   height: 300px;
@@ -17,4 +23,88 @@ nav ul {
 nav ul li {
   list-style: none;
   color: white;
+  position: relative;
+  top: 260px;
+}
+
+.headline-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#first-article a {
+  text-decoration: none;
+}
+
+#second-article a {
+  text-decoration: none;
+}
+
+#first-article a img {
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  position: relative;
+  left: 20px;
+}
+
+#first-article h3 {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+#first-article p {
+  color: black;
+  width: 450px;
+  position: relative;
+  left: 20px;
+}
+
+#second-article a img {
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  position: relative;
+  left: 20px;
+}
+
+#second-article h3 {
+  color: black;
+  padding-bottom: 20px;
+}
+
+#second-article p {
+  color: black;
+  width: 450px;
+  position: relative;
+  left: 20px;
+}
+
+.latest-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.latest-div {
+  width: 33.3%;
+  height: 400px;
+  border: 2px solid green;
+}
+
+.latest-div a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.latest-div img {
+  width: 250px;
+  height: 200px;
+  align-self: center;
 }
