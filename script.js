@@ -17,7 +17,7 @@
       parent.insertBefore(mainTwo, child)
 
       const firstArticle = document.createElement('div')
-      firstArticle.className = 'col-md-6'
+      firstArticle.className = 'col-6'
       firstArticle.id = 'first-article'
       
       const url = document.createElement('a')
@@ -39,7 +39,7 @@
       text.textContent = `${twoResults[0].description}`
 
       const secondArticle = document.createElement('div')
-      secondArticle.className = 'col-md-6'
+      secondArticle.className = 'col-6'
       secondArticle.id = 'second-article'
 
       const link = document.createElement('a')
